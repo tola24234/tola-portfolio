@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- Outer circle -->
+  <circle cx="24" cy="24" r="22" stroke="#22c55e" stroke-width="1.5" opacity="0.5"/>
+  <!-- Inner circle -->
+  <circle cx="24" cy="24" r="17" stroke="#22c55e" stroke-width="1" opacity="0.3"/>
+  <!-- Green filled circle bg -->
+  <circle cx="24" cy="24" r="14" fill="rgba(34,197,94,0.12)"/>
+  <!-- Geometric corner marks -->
+  <path d="M6 18 L6 6 L18 6" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+  <path d="M42 18 L42 6 L30 6" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+  <path d="M6 30 L6 42 L18 42" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+  <path d="M42 30 L42 42 L30 42" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+  <!-- TF letters -->
+  <text x="24" y="29" text-anchor="middle" font-family="Space Grotesk, Inter, sans-serif" font-weight="700" font-size="13" fill="#22c55e" letter-spacing="-0.5">TF</text>
+  <!-- Glow dot -->
+  <circle cx="24" cy="24" r="14" fill="none" stroke="#22c55e" stroke-width="0.5" opacity="0.15"/>
+</svg>
