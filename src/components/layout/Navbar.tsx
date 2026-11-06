@@ -24,7 +24,7 @@ export function Navbar() {
   const [moreOpen,   setMoreOpen]   = useState(false);
   const [scrolled,   setScrolled]   = useState(false);
   const [active,     setActive]     = useState('home');
-  const moreRef = useRef<HTMLDivElement>(null);
+  const moreRef = useRef<HTMLLIElement>(null);
 
   const onScroll = useCallback(() => {
     setScrolled(window.scrollY > 20);
