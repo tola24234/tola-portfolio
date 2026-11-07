@@ -1,0 +1,30 @@
+# ── Secrets ──────────────────────────────────────────────────────────
+# NEVER commit the real .env — it contains your MongoDB password
+.env
+
+# ── Virtual environment ───────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Python bytecode ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# ── Pytest / coverage ─────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Build / dist artefacts ────────────────────────────────────────────
+*.egg-info/
+dist/
+build/
+
+# ── OS noise ──────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db

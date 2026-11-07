@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: tola-portfolio-api
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      # Set these in the Render dashboard — do NOT put real values here.
+      - key: MONGODB_URL
+        sync: false          # Render will prompt you to fill this in
+      - key: DATABASE_NAME
+        value: tola_portfolio
+      - key: FRONTEND_URL
+        sync: false          # Add your Vercel URL here after deploying the frontend
+    autoDeploy: true         # Redeploy automatically on every push to main
